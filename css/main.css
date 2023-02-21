@@ -108,23 +108,45 @@ body {
   height: 100%;
 }
 
+h1 {
+    color: #ffffff;
+    font-size: 4em;
+    margin-top: 8%;
+}
+
+p {
+    color: #ffffff;
+    font-size: 2em;
+}
+
 .wrapper {
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #94958f;
     display: flex;
     justify-content: space-between;
     font-weight: 700;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: black;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 1.5em;
-  font-size: 2.2em;
-  background-color: #f16059;
+  font-size: 1.2em;
   height: 300px;
+  padding: 1%;
   width: 30%;
+}
+
+.div-2 {
+    border-left: 1px solid #94958f;
+    border-right: 1px solid #94958f;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 
